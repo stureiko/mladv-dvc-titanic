@@ -2,4 +2,4 @@ data/
 venv/
 yc.key
 /data
-owesome_pipeline.pkl
+*.pkl

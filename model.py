@@ -67,7 +67,7 @@ def main():
 
     # Обучение модели (Pipeline автоматически применит все трансформации к X_train)
     model_pipeline.fit(X_train, y_train)
-    with open("owesome_pipeline.pkl", "wb") as f:
+    with open("model.pkl", "wb") as f:
         pickle.dump(model_pipeline, f)
 
     # Предсказание на тестовой выборке
