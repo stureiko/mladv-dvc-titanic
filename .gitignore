@@ -1,0 +1,5 @@
+venv/
+yc.key
+*.pkl
+*.csv
+data/
