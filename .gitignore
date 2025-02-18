@@ -3,3 +3,4 @@ yc.key
 *.pkl
 *.csv
 data/
+/data
