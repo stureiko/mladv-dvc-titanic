@@ -55,8 +55,8 @@ def main():
     #      - Обучение классификатора (RandomForestClassifier)
     model_pipeline = Pipeline(steps=[
         ('preprocessor', preprocessor),
-        # ('classifier', RandomForestClassifier(n_estimators=100, random_state=42))
-        ('classifier', LogisticRegression(max_iter=1000, random_state=42))
+        ('classifier', RandomForestClassifier(n_estimators=100, random_state=42))
+        # ('classifier', LogisticRegression(max_iter=1000, random_state=42))
     ])
 
     # Разделение данных на обучающую/тестовую выборки

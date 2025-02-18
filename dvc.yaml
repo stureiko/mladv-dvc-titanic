@@ -1,0 +1,11 @@
+stages:
+  train:
+    cmd: python model.py
+    deps:
+    - data
+    - model.py
+    outs:
+    - model.pkl
+    metrics:
+    - metrics.csv:
+        cache: false
